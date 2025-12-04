@@ -42,20 +42,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void chama() {
+        tvAgain.setText(null);
+        tvH.setText(null);
         if (etNumber.getText().toString().isEmpty()) {
             tvAgain.setText(R.string.tvAgain);
         } else {
             int num = Integer.parseInt(etNumber.getText().toString());
-            tvAgain.setText(null);
-            tvH.setText(null);
 
             if (num <= 0 || num >= 20) {
                 tvAgain.setText(R.string.tvAgain);
             } else if (num == 1) {
-                tvH.setText(getString(R.string.tvH) + "1");
+                tvH.setText(getString(R.string.tvH) + " 1");
             } else {
                 Calcular calc = new Calcular();
-                tvH.setText(getString(R.string.tvH) + calc.calculaH(num));
+                tvH.setText(getString(R.string.tvH) + " " + calc.calculaH(num));
             }
         }
     }

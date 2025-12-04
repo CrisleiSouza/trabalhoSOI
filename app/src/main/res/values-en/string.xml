@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">trabalhoSOI</string>
+    <string name="etNumber">Insert N value</string>
+    <string name="btnCalcular">Calculate H</string>
+    <string name="tvAgain">Insert a value between 0 and 20</string>
+    <string name="tvH">H = </string>
+</resources>
