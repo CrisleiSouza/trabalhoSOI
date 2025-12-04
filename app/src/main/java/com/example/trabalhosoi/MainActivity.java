@@ -51,8 +51,6 @@ public class MainActivity extends AppCompatActivity {
 
             if (num <= 0 || num >= 20) {
                 tvAgain.setText(R.string.tvAgain);
-            } else if (num == 1) {
-                tvH.setText(getString(R.string.tvH) + " 1");
             } else {
                 Calcular calc = new Calcular();
                 tvH.setText(getString(R.string.tvH) + " " + calc.calculaH(num));
