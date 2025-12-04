@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">trabalhoSOI</string>
+    <string name="etNumber">Insira o valor de N</string>
+    <string name="btnCalcular">Calcular H</string>
+    <string name="tvAgain">Insira um valor maior que 0 e menor que 20</string>
+    <string name="tvH">H = </string>
+</resources>
